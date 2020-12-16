@@ -3,7 +3,7 @@ import Header from './header'
 
 export default function Layout({children}) {
   return (
-    <>
+    <div className="relative">
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -14,6 +14,6 @@ export default function Layout({children}) {
       <Header />
       <main>{children}</main>
 
-    </>
+    </div>
   )
 }

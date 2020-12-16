@@ -89,3 +89,17 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* General Styles */
+.main-animate {
+  background: linear-gradient( rgba(240, 194, 194, 0),  rgba(240, 194, 194, 0));
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background: linear-gradient( rgba(240, 194, 194, 1),  rgba(240, 194, 194, .9));
+    
+    a {
+      color: #ffffff;
+    }
+  }
+}

@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header>
+    <header className="absolute top-0 inset-x-0">
       <div className="container flex justify-end">
-        <nav className="p-4">
-          <ul className="flex uppercase tracking-wider font-serif space-x-6">
+        <nav className="py-4 lg:py-6 xl:py-8">
+          <ul className="flex uppercase tracking-wider font-serif text-white space-x-6">
             <li>
               <Link href="/">
                 <a>About</a>
